@@ -12,4 +12,7 @@
   force = true
   status = 200
  from = "/*"
-  to = "/index.html"
+  to = "/index.html"  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200    /*    /index.html   200    /*    /index.html   200
